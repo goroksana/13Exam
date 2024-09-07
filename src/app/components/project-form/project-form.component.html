@@ -1,0 +1,14 @@
+<h2 *ngIf="project.id">Edit Project</h2>
+<h2 *ngIf="!project.id">Add Project</h2>
+
+
+<form (ngSubmit)="onSave()">
+  <label for="name">Project Name:</label>
+  <input id="name" [(ngModel)]="project.name" name="name" required>
+
+  <label for="deadline">Deadline:</label>
+  <input id="deadline" [(ngModel)]="project.deadline" name="deadline" type="date" required>
+
+  <button type="submit">Save</button>
+</form>
+

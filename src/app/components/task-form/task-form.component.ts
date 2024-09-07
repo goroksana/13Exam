@@ -13,7 +13,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrl: './task-form.component.css'
 })
 export class TaskFormComponent {
-  @Input() task: Task = new Task(0, '', '', '', '');
+  @Input() task: Task = new Task(0, '', '', '', '', 0);
   constructor(
     private taskService: TaskService,
     private route: ActivatedRoute,

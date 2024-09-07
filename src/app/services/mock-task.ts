@@ -13,9 +13,9 @@ export const TASKS: Task[] = [
   // яка є масивом об'єктів типу Task. Використання ключового слова
   // export дозволяє використовувати цей масив в інших файлах
 
-  new Task(1, 'Complete Angular project', 'Finish the to-do list project in Angular.', '2024-09-10 10:00', 'High'),
-  new Task(2, 'Buy groceries', 'Purchase milk, bread, eggs, and fruits.', '2024-09-04 18:00', 'Medium'),
-  new Task(3, 'Workout', 'Attend the gym for an hour of exercise.', '2024-09-05 07:00', 'Low'),
-  new Task(4, 'Prepare presentation', 'Create slides for the upcoming meeting.', '2024-09-08 09:00', 'High'),
-  new Task(5, 'Read a book', 'Finish reading the current chapter of the book.', '2024-09-06 20:00', 'Low')
+  new Task(1, 'Complete Angular project', 'Finish the to-do list project in Angular.', '2024-09-10 10:00', 'High',1),
+  new Task(2, 'Buy groceries', 'Purchase milk, bread, eggs, and fruits.', '2024-09-04 18:00', 'Medium', 2),
+  new Task(3, 'Workout', 'Attend the gym for an hour of exercise.', '2024-09-05 07:00', 'Low', 3),
+  new Task(4, 'Prepare presentation', 'Create slides for the upcoming meeting.', '2024-09-08 09:00', 'High', 4),
+  new Task(5, 'Read a book', 'Finish reading the current chapter of the book.', '2024-09-06 20:00', 'Low', 5)
 ];
